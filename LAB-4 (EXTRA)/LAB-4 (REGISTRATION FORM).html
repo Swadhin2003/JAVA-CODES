@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>Registration Form</title>
+<style>
+body {
+padding: 10% 30%;
+background-color: #a12b55;
+color: white;}
+form {
+background-color: #75203f;
+padding: 5% 20%;}
+#register {
+padding: 2% 35%;
+font-size: 1.3em;
+font-weight: bold;
+border-radius: 0.2em;
+border-color: white;}
+div {
+display: flex;
+height: 25px;
+margin-top: 10px;}
+div label {
+flex: 0.5;}
+div input {
+flex: 1;}
+</style>
+</head>
+<body>
+<form>
+<div>
+<label>Name:</label>
+<input type="text" size="15" placeholder="your name"><br><br>
+</div>
+<div>
+<label>Email:</label>
+<input type="email" placeholder="your email"><br><br>
+</div>
+<div><label>Password:</label> <input type="password"><br><br>
+</div>
+<div>
+<label>Phone Number:</label> <input type="text" size="10"><br><br>
+</div>
+<div>
+<label>Gender:</label>
+<input type="radio" name="gender" value="Male">Male
+<input type="radio" name="gender" value="Female">Female
+<input type="radio" name="gender" value="Other">Other<br><br>
+</div>
+<div>
+<label>Language:</label>
+<select>
+<option value="Select">Select Language</option>
+<option value="English">English</option>
+<option value="Bengali">Bengali</option>
+<option value="Hindi">Hindi</option>
+<option value="Odia">Odia</option>
+</select><br><br>
+</div>
+<div>
+<label>Zip Code:</label><input type="number" size="6"><br><br>
+</div>
+<div>
+<label>About:</label>
+<textarea cols="20" rows="2" placeholder="Write about yourself..." style="height: 40px"></textarea><br><br>
+</div>
+<input type="Submit" value="Register" id="register" style="margin-top: 30px">
+</form>
+</body>
+</html>
